@@ -40,7 +40,7 @@ El proyecto está compuesto por dos partes principales:
 1. **Clonar el repositorio**:
     Si aún no tienes el repositorio en tu máquina, clónalo usando Git:
     ```bash
-    git clone https://github.com/usuario/diccionario-api.git
+    git clone https://github.com/Javier3123123/Diccionario.git
     ```
 
 2. **Instalar Python**:
