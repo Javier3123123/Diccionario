@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diccionario</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="">
+        <h1>Diccionario</h1>
+        <center>
+            <p>Busca las palabras que quieras y mira ciertos parámetros de la misma.</p>
+            <p>Elige el tipo de búsqueda que quieres realizar:</p>
+        </center>
+        <select id="tipo-busqueda" name="select">
+            <option value="definicion" selected>Definición</option>
+            <option value="sinonimos">Sinónimos</option>
+            <option value="antonimos">Antónimos</option>
+        </select>        
+        <input id="escribir" type="1" placeholder="Buscar..." />
+        <input type="button" id="buscar" value="Buscar" />
+        <main>
+            <div id="resultados"></div>
+        </main>
+    </div>
+</body>
+</html>

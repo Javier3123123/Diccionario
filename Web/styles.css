@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+div {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid;
+    width: 80%;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #555;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+/* Estilos para la selección y el botón */
+select, input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 14px;
+    box-sizing: border-box;
+    cursor: pointer
+}
+
+select {
+    background-color: #f9f9f9;
+}
+
+input[type="button"] {
+    background-color: #a0a0a0;
+    color: white;
+    cursor: pointer;
+    transition: 2s background-color ease;
+    border: none;
+}
+
+input[type="1"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input[type="button"]:hover {
+    background-color: #bebebe;
+}
+
+#resultados {
+    width: 95%;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid;
+    color: #333;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
